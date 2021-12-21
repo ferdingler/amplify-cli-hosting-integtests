@@ -1,0 +1,7 @@
+{
+  "githubRepoUrl": "https://github.com/aws-aemilia/BackendBuild-IntegTest-Codegen-DoNotTouch",
+  "githubOauthToken": "REPLACE_WITH_A_PERSONAL_ACCESS_TOKEN",
+  "githubRepoBranchName": "mainline",
+  "region": "us-east-1",
+  "amplifyCliVersion": "beta"
+}

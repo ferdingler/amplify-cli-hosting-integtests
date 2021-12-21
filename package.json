@@ -1,0 +1,15 @@
+{
+  "name": "cli-console-integtests",
+  "version": "1.0.0",
+  "description": "Tests the integration between Amplify CLI and Hosting",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "^2.1048.0",
+    "jest": "^27.4.5"
+  }
+}
