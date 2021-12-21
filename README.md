@@ -8,7 +8,7 @@ Install dependencies
 npm install
 ```
 
-Replace input parameters in the `test/params.json` file with your own GitHub repository URL, branchName and a valid personal access token from GitHub. Your repository should be for an Amplify App that creates backend resources so that the CLI is excercised during the build.
+Replace input parameters in the `test/params.json` file with your own GitHub repository URL, branchName and a valid personal access token from GitHub. Your repository should be for an Amplify App that creates backend resources so that the CLI is excercised during the build, for example [this App](https://github.com/aws-aemilia/BackendBuild-IntegTest-Codegen-DoNotTouch) creates an AppSync API using Codegen.
 
 ```json
 {
@@ -20,7 +20,7 @@ Replace input parameters in the `test/params.json` file with your own GitHub rep
 }
 ```
 
-Then, configure valid AWS credentials for any AWS account. It doesn't matter what account or region you use. The tests will run against Amplify Hosting in production.
+Then, configure valid AWS credentials for any AWS account. It doesn't matter what account or region you use. The tests will run against Amplify Hosting in production but will pull the Amplify CLI version that you specify in the params above.
 
 ```bash
 export AWS_ACCESS_KEY_ID=...
