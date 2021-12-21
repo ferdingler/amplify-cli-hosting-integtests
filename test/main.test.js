@@ -138,3 +138,7 @@ test("should run a successful build on Amplify Hosting using the Beta CLI", asyn
    */
   expect(currentStatus).toEqual("SUCCEED");
 });
+
+function timeout(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
